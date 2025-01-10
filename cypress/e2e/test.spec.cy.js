@@ -1,5 +1,5 @@
-describe('Test login - Github Actions', () => {
-  it('Login - Automated Test', () => {
+describe('Leandro Ucuamba Test - ', () => {
+  it('Automated Test - Github Actions', () => {
     cy.visit("https://practicetestautomation.com/practice-test-login/")
     cy.get("#username").clear().type("student")
     cy.get("#password").clear().type("Password123")
